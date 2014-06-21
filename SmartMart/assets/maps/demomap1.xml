@@ -1,0 +1,91 @@
+<store>
+    <info>
+    	<name>Local Store</name>
+    	<street>1001 Smith Circle</street>
+    	<city>San Marcos</city>
+    	<state>TX</state>
+    	<zip>78666</zip>
+    </info>
+    <floor>
+		<top>40</top>
+		<left>40</left>
+		<right>780</right>
+		<bottom>600</bottom>
+    </floor>
+	<!-- Shelf group 1 row 1 -->
+		<shelf>
+			<top>60</top>
+			<left>80</left>
+			<right>140</right>
+			<bottom>250</bottom>
+		</shelf>
+		<shelf>
+			<top>60</top>
+			<left>180</left>
+			<right>240</right>
+			<bottom>250</bottom>
+		</shelf>
+		<shelf>
+			<top>60</top>
+			<left>280</left>
+			<right>340</right>
+			<bottom>250</bottom>
+		</shelf>
+	<!-- Shelf group 1 row 2 -->
+		<shelf>
+			<top>390</top>
+			<left>80</left>
+			<right>140</right>
+			<bottom>580</bottom>
+		</shelf>
+		<shelf>
+			<top>390</top>
+			<left>180</left>
+			<right>240</right>
+			<bottom>580</bottom>
+		</shelf>
+		<shelf>
+			<top>390</top>
+			<left>280</left>
+			<right>340</right>
+			<bottom>580</bottom>
+		</shelf>
+	<!-- Shelf group 2 row 1 -->
+		<shelf>
+			<top>60</top>
+			<left>680</left>
+			<right>740</right>
+			<bottom>250</bottom>
+		</shelf>
+		<shelf>
+			<top>60</top>
+			<left>580</left>
+			<right>640</right>
+			<bottom>250</bottom>
+		</shelf>
+		<shelf>
+			<top>60</top>
+			<left>480</left>
+			<right>540</right>
+			<bottom>250</bottom>
+		</shelf>
+	<!-- Shelf group 2 row 2 -->
+		<shelf>
+			<top>390</top>
+			<left>680</left>
+			<right>740</right>
+			<bottom>580</bottom>
+		</shelf>
+		<shelf>
+			<top>390</top>
+			<left>580</left>
+			<right>640</right>
+			<bottom>580</bottom>
+		</shelf>
+		<shelf>
+			<top>390</top>
+			<left>480</left>
+			<right>540</right>
+			<bottom>580</bottom>
+		</shelf>
+	

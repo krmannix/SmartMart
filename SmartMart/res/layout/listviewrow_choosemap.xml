@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/mc_storename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="28sp"
+        android:text="Test"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        
+        />
+    
+    <TextView
+        android:id="@+id/mc_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="18dp"
+        android:text="Address"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        />
+    
+       <TextView
+        android:id="@+id/mc_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="18dp"
+        android:text="City, ST 12345"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/mc_street"
+        />
+    
+    
+
+</RelativeLayout>

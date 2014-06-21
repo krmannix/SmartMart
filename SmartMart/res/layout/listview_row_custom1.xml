@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     <TextView
+        android:id="@+id/numbering"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="13dp"
+        android:text="1)"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="14dp"
+        
+        />
+    
+    <Button
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentRight="true"
+        android:text="Delete"
+        android:onClick="removeItemOnClickHandler"
+         />
+
+    <TextView
+        android:id="@+id/itemtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/select"
+        android:layout_toRightOf="@+id/numbering"
+        android:layout_marginLeft="4dp"
+        android:text="Temp"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemsubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/itemtitle"
+        android:layout_below="@+id/itemtitle"
+        android:text="Temp"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

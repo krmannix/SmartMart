@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/topbuttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/backbutton2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginLeft="5dp"
+            />
+        
+   <!--      <Button 
+            android:id="@+id/choose"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Choose"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            
+            /> -->
+        
+        <View
+            android:id="@+id/queryline"
+			android:layout_width="fill_parent"
+			android:layout_height="2dip"
+			android:background="#000000" 
+			android:layout_below="@+id/backbutton2"
+			android:layout_marginTop="7dp"
+			/>
+        
+    </RelativeLayout>
+    
+    
+    
+    <ListView
+        
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/topbuttons"
+    />
+    
+    <ProgressBar 
+        	android:indeterminate="true"
+            android:layout_width="50dp" 
+            android:layout_height="50dp"
+            android:id="@+id/marker_progress" style="?android:attr/progressBarStyle"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/topbuttons"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            
+            />
+    
+    <TextView 
+        android:id="@+id/noresults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topbuttons"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="No Results Found"
+  		android:visibility="invisible"
+        />
+    
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<store>
+    <info>
+    	<name>Conference Room</name>
+    	<street>Nueces Building</street>
+    	<city>San Marcos</city>
+    	<state>TX</state>
+    	<zip>78666</zip>
+    </info>
+    <floor>
+		<top>100</top>
+		<left>300</left>
+		<right>500</right>
+		<bottom>700</bottom>
+    </floor>
+	<shelf>
+		<top>150</top>
+		<left>375</left>
+		<right>425</right>
+		<bottom>650</bottom>
+	</shelf>

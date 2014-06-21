@@ -1,0 +1,44 @@
+****----------------------------------------------------------------****
+
+How to install the 
+
+________.                          ____ ____  
+|  _____|                         |    V    |  
+| |_____   __ __   __   __  _____ |         |  __   __  _____
+|_____. | |  |  | |__| |__|   |   |  |\ /|  | |__| |__|   |
+ _____| | |  |  | |  | | \    |   |  | V |  | |  | | \    |
+|_______| |  |  | |  | |  \   |   |__|   |__| |  | |  \   |   
+
+Application demo.
+
+Produced by:
+Dylan Hicks (Columbia University)
+Kevin Mannix (Boston University)
+Hannah Bowles (Texas State University - San Marcos)
+Faculty Mentor: Dr. Byron Gao, Texas State University
+REU Information Retrevial Program @ Texas State University, Summer 2013
+
+Instructions for Android Phones:
+
+1) On your Android Device, go to Settings->Security->Unknown Sources and make sure that checkmark is clicked.
+
+2) Download the .apk file (most likely named SmartMartVer_.apk) on your Android Device (email it to yourself and access it on your Android device, or access a webpage that links to the .apk file).
+
+3) Run the application.
+
+
+
+Instructions to view source code:
+
+1) Download Eclipse with the Android SDK. This link (http://developer.android.com/sdk/installing/bundle.html) is provided by Android Developers to help facilitate this process.
+
+2) Import the Parent Folder (the folder should contain subfolders such as /src and /assests).
+
+3) This should allow you to access all the files needed to run the Application seen in the demo, and more. 
+
+
+Please email all inquiries about the code, application, or project in general to kmannix@bu.edu and I will answer or provide you with the appropriate contact information to answer your question. Thank you for your interest in SmartMart!
+
+****----------------------------------------------------------------****
+
+
